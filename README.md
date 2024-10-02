@@ -22,7 +22,7 @@ set(MySQL_INCLUDE_DIR "/Users/xxx/qt_projects/QSqlMysql/mysql_dev/include/mysql"
 set(MySQL_LIBRARY "/Users/xxx/qt_projects/QSqlMysql/mysql_dev/lib/libmysqlclient.dylib")
 ```
 #### [9]编译当前打开的项目
-#### [10]然后进入到/qtbase/src/plugins/sqldrivers/build/Qt_6_7_2_for_macOS-Release/plugins路径,复制libqsqlmysql.dylib.dSYM和libqsqlmysql.dylib文件到Qt安装目录下的/Users/xxx/Qt/6.7.2/macos/plugins路径中
+#### [10]然后进入到/qtbase/src/plugins/sqldrivers/build/Qt_6_7_2_for_macOS-Release/plugins路径,复制libqsqlmysql.dylib.dSYM和libqsqlmysql.dylib文件到Qt安装目录下的/Users/xxx/Qt/6.7.2/macos/plugins/sqldrivers路径中
 #### [11]将mysql动态库和静态库(libmysqlclient.a,libmysqlclient.dylib这两个文件位于brew安装的mysql客户端路径下/opt/homebrew/opt/mysql-client@8.0/lib)都拷贝到Qt安装目录(/Users/xxx/Qt/6.7.2/macos/bin)
 
 ## 3.在应用中使用mysql
