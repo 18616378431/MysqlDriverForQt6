@@ -27,8 +27,10 @@ set(MySQL_LIBRARY "/Users/xxx/qt_projects/QSqlMysql/mysql_dev/lib/libmysqlclient
 
 ## 3.在应用中使用mysql
 ```cpp
+projects.pro配置
 QT += sql
 
+示例代码,打印了数据库驱动及连接数据库进行查询
 main.cpp
 #include <QSqlDatabase>
 #include <QSqlQuery>
